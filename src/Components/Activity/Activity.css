@@ -1,18 +1,18 @@
 .activity{
-    width: 300px;
-    height: 600px;
+    width: 350px;
+    height: 580px;
     border: 1px solid grey;
     border-radius: 8px;
+    position: relative;
 }
 .activity img{
-    width: 280px;
-    height: 280px;
+    width: 336px;
+    height: 336px;
     border-radius: 8px;
-    margin: 10px;
+    margin: 7px;
 }
 .activity-info{
-    margin: 10px;
-    padding: 5px;
+    margin:0 14px;
 }
 .subject{
     font-family: 'lato';
@@ -21,4 +21,15 @@
     font-size: 21px;
     line-height: 25px;
     margin-top: 7px;
+}
+.btn-list{
+    width: 100%;
+    background: skyblue;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+}
+.btn-list:hover{
+    background: lightgreen;
 }

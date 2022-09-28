@@ -8,8 +8,11 @@ const Activity = (props) => {
             <div className='activity-info'>
             <p className='subject'>{subject}</p>
             <p>{details}</p>
-            <p><small>Study Time: {time}h</small></p>
+            <p><small>Study Time: {time}min</small></p>
             </div>
+            <button className='btn-list'>
+                <p>Add to List</p>
+            </button>
         </div>
     );
 };
