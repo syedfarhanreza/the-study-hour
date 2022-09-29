@@ -1,5 +1,9 @@
 .qna-container {
-    margin: 20px 0;
+    background-color: lightgoldenrodyellow;
+    margin: 50px 0;
+    margin-right: 20px;
+    padding: 50px;
+    border-radius: 15px;
 }
 
 .qna-container h2 {

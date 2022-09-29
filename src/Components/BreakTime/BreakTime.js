@@ -8,8 +8,7 @@ const BreakTime = ({ setBreakTime }) => {
         { time: 20 },
         { time: 25 },
         { time: 30 },
-        { time: 45 },
-        { time: 60 }
+        { time: 45 }
     ]
 
     return (
