@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import List from '../List/List';
 import './Activities.css'
 const Activities = () => {
     const [activities,setActivities] = useState([]);
-
+    const[list, setList] = useState([]);
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
@@ -12,6 +13,8 @@ const Activities = () => {
 
     const handleAddToList = (activity) =>{
         console.log(activity);
+        const newList = [...list,activity];
+        setList(newList);
     }
         return (
         <div className='activities'>
@@ -25,7 +28,7 @@ const Activities = () => {
                }
             </div>
             <div className="list-container">
-                <h4>List summary</h4>
+               <List list={list}></List>
             </div>
         </div>
     );
