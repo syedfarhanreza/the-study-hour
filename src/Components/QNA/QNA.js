@@ -19,16 +19,21 @@ const QNA = () => {
                         2. Differences between props and state.
                     </h4>
                     <p>
-                        State is the local state of the component which cannot be accessed and modified outside of the component. It's equivalent to local variables in a function. Props, on the other hand, make components reusable by giving components the ability to receive data from their parent component in the form of props.
+                    Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.
                     </p>
                 </div>
                 <div>
                     <h4>
                         3. What can useEffect do except data load?
                     </h4>
-                    <p>
-
-                    </p>
+                        <ul>
+                            <li>Running once on mount: fetch API data</li>
+                            <li>Running on state change: validating input field</li>
+                            <li>Running on state change: live filtering</li>
+                            <li>Running on state change: trigger animation on new array value</li>
+                            <li>Running on props change: update paragraph list on fetched API data update</li>
+                            <li>Running on props change: updating fetched API data to get BTC updated price</li>
+                        </ul>
                 </div>
             </div>
 
