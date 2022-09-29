@@ -4,10 +4,11 @@
     border: 1px solid grey;
     border-radius: 8px;
     position: relative;
+    background-color:cornsilk;
 }
 .activity img{
     width: 336px;
-    height: 336px;
+    height: 300px;
     border-radius: 8px;
     margin: 7px;
 }

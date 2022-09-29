@@ -1,7 +1,8 @@
 import React from 'react';
 import './Activity.css'
-const Activity = (props) => {
-    const {img,subject,details, time } = props.activity;
+const Activity = ({activity, handleAddToList}) => {
+    const {img,subject,details, time } = activity;
+   
     return (
         <div className='activity'>
             <img src={img} alt="" />
@@ -10,7 +11,7 @@ const Activity = (props) => {
             <p>{details}</p>
             <p><small>Study Time: {time}min</small></p>
             </div>
-            <button className='btn-list'>
+            <button onClick={()=>handleAddToList(activity)} className='btn-list'>
                 <p>Add to List</p>
             </button>
         </div>

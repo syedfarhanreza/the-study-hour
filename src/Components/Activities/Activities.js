@@ -8,7 +8,11 @@ const Activities = () => {
         fetch('data.json')
         .then(res => res.json())
         .then(data => setActivities(data));
-    },[])
+    },[]);
+
+    const handleAddToList = (activity) =>{
+        console.log(activity);
+    }
         return (
         <div className='activities'>
             <div className="activities-container">
@@ -16,6 +20,7 @@ const Activities = () => {
                 activities.map(activity => <Activity
                 key ={activity.id}
                 activity = {activity}
+                handleAddToList ={handleAddToList}
                 ></Activity>)
                }
             </div>
