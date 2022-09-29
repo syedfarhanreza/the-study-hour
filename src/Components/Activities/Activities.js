@@ -5,6 +5,7 @@ import './Activities.css'
 const Activities = () => {
     const [activities,setActivities] = useState([]);
     const[list, setList] = useState([]);
+    const[breakTime, setBreakTime] = useState(Number(localStorage.getItem("BreakTime")) || 0);
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
@@ -30,7 +31,10 @@ const Activities = () => {
                }
             </div>
             <div className="list-container">
-               <List list={list}></List>
+               <List 
+               list={list}
+               breakTime= {breakTime}
+               ></List>
             </div>
         </div>
        </div>
