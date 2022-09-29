@@ -2,7 +2,7 @@
     margin-bottom: 50px;
 }
 
-.ps-info {
+.my-info {
     display: flex;
     align-items: center;
     text-align: center;
@@ -28,6 +28,6 @@ p {
     margin: 0;
 }
 
-.myself-part {
+.myself {
      margin-bottom: 50px;
 }

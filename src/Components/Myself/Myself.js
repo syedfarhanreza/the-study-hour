@@ -7,8 +7,8 @@ const Myself = ({ setBreakTime }) => {
 
     return (
         <div className='self-details'>
-            <div className='myself-part'>
-                <div className='ps-info'>
+            <div className='myself'>
+                <div className='my-info'>
                     <div className='img'>
                         <img src={pic} alt="" />
                     </div>
