@@ -1,12 +1,19 @@
+
 import './App.css';
-import Activities from './Components/Activities/Activities';
-import Header from './Components/Header/Header';
+import Blogs from './components/QNA/QNA';
+import Container from './components/Container/Container';
+import Header from './components/Header/Header';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+
   return (
-    <div className='container'>
+    <div className='app'>
       <Header></Header>
-     <Activities></Activities>
+      <Container></Container>
+      <Blogs></Blogs>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

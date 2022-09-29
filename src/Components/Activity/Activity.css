@@ -1,36 +1,39 @@
-.activity{
-    width: 350px;
+.activity-container {
+    width: 300px;
     height: 580px;
-    border: 1px solid grey;
+    border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
-    background-color:cornsilk;
 }
-.activity img{
-    width: 336px;
-    height: 300px;
-    border-radius: 8px;
+.activity-container img {
+    width: 286px;
+    height: 286px;
+    border-radius: 8px ;
     margin: 7px;
 }
-.activity-info{
-    margin:0 14px;
+.info{
+    padding: 10px;
 }
-.subject{
-    font-family: 'lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 25px;
-    margin-top: 7px;
+.info p{
+    padding-bottom: 5px;
 }
-.btn-list{
+
+.btn {
+    position:absolute;
+    bottom: 0;
+    background-color:yellowgreen;
     width: 100%;
-    background: #FFE0B3;
+    height: 40px;
     border: none;
     border-radius: 0px 0px 8px 8px;
-    position: absolute;
-    bottom: 0;
+    font-weight: 700;
+
 }
-.btn-list:hover{
-    background:orange;
+
+.btn:hover {
+    background-color: orange;
+}
+.time {
+    font-weight: 700;
+    color: red;
 }

@@ -1,17 +1,33 @@
-.myself{
+.self-details {
+    margin-bottom: 50px;
+}
+
+.ps-info {
     display: flex;
     align-items: center;
-    padding: 20px;
+    text-align: center;
 }
-.myself img{
+
+.name h4,p {
+    margin: 6px;
+}
+
+.img img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-right: 10px;
 }
-.name p{
+
+
+.body {
+ padding: 10px;
+}
+
+.body h4,
+p {
     margin: 0;
 }
-.name small{
- margin-top: 0;
+
+.myself-part {
+     margin-bottom: 50px;
 }

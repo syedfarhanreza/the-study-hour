@@ -1,0 +1,23 @@
+.study-section {
+    margin-top: 50px;
+}
+
+.study-section h4 {
+    background-color:paleturquoise;
+    padding: 15px;
+}
+
+.total-time {
+    color:blueviolet;
+}
+
+.complete-button {
+    background-color:lightgreen;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    font-weight: 800;
+}
+.complete-button:hover{
+    background-color:dodgerblue;
+}

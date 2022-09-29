@@ -1,0 +1,27 @@
+.break {
+    margin: 15px 0;
+
+}
+
+.break h4 {
+    margin: 0;
+}
+
+
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    border: none;
+    background-color:dodgerblue;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.buttons button:hover {
+    background-color:rgb(133, 11, 225);
+    color: white;
+}

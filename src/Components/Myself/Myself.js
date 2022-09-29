@@ -1,21 +1,33 @@
 import React from 'react';
+import BreakTime from '../BreakTime/BreakTime';
+import pic from '../../components/images/pic.jpg'
 import './Myself.css'
-import pic from '../../images/pic.jpg'
-const Myself = () => {
-    return (
-        <div >
 
-              <div className='myself'>
-              <img src={pic} alt="" />
-                <div className='name'>
-                <p>Syed Farhan Reza</p>
-                <small>Bogura,</small><small>Bangladesh</small>
+const Myself = ({ setBreakTime }) => {
+
+    return (
+        <div className='self-details'>
+            <div className='myself-part'>
+                <div className='ps-info'>
+                    <div className='img'>
+                        <img src={pic} alt="" />
+                    </div>
+                    <div className='name'>
+                        <h4>Syed Farhan Reza</h4>
+                        <p><small>Bogura, Bangladesh</small></p>
+                    </div>
                 </div>
-              </div>
-                <div>
-                   <p>Studies at BS.c in Computer science & Engineering (CSE) at Pundra University of Science & Technology</p> 
+                <div className='body'>
+                    <p>Studies at BS.c in Computer science & Engineering (CSE) at Pundra University of Science & Technology</p>  
                 </div>
-             </div>
+            </div>
+
+            <BreakTime
+                setBreakTime={setBreakTime}
+            ></BreakTime>
+
+
+        </div>
     );
 };
 
