@@ -1,0 +1,17 @@
+.myself{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.myself img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.name p{
+    margin: 0;
+}
+.name small{
+ margin-top: 0;
+}

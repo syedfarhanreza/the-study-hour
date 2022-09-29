@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Myself from '../Myself/Myself';
+import './List.css'
 const List = ({list}) => {
     return (
-        <div>
-             <h4>List summary</h4>
+        <div className='list'>
+           <Myself></Myself>
                 <p>Selected Activities: {list.length}</p>
         </div>
     );

@@ -17,7 +17,9 @@ const Activities = () => {
         setList(newList);
     }
         return (
-        <div className='activities'>
+       <div>
+        <h3 className='head'>Select Subject to Study</h3>
+         <div className='activities'>
             <div className="activities-container">
                {
                 activities.map(activity => <Activity
@@ -31,6 +33,7 @@ const Activities = () => {
                <List list={list}></List>
             </div>
         </div>
+       </div>
     );
 };
 

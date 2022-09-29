@@ -1,3 +1,6 @@
+.head{
+    margin-left: 50px;
+}
 .activities{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -6,10 +9,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
-    margin: 100px 50px ;
+    margin: 0 0 50px 50px;
 }
 .list-container{
-    background-color:greenyellow
+    background-color:lightgreen;
 }
 @media screen and (max-width: 1100px) {
     .activities-container{
